@@ -1,0 +1,16 @@
+
+
+  1. 1. Match an input string that contains at least one occurrence of the string "hello world"
+
+  Answer: (hello world)+ 
+
+2. Find all words in an input string that contain a triple vowel
+
+
+  Answer: \b\w*[aeiou]{3}\w*\b
+
+
+3. Match an input string that is entirely a flight code, of the format AA####, where AA is a two-letter uppercase airline code, and #### is a three- or four-digit flight number
+
+
+ Answer: ^[A-Z][A-Z]\d{3,4}$
